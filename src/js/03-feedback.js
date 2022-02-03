@@ -26,7 +26,7 @@ function saveForm() {
     if(savedFormData) {
         
         feedBackFormRef.elements.email.value = savedFormData.email;
-        feedBackFormRef.elements.email.value = savedFormData.message;
+        feedBackFormRef.elements.message.value = savedFormData.message;
     }
 };
 
